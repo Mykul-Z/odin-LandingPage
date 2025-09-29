@@ -17,6 +17,12 @@
     font-weight: 900;
 }
 
+.quote_text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
 /* generic attribute definitions */
 ul {
     display: flex;
@@ -114,6 +120,20 @@ body {
     border-color: blue;
     border-radius: 8px;
 }
+
+/* main 3 body section */
+
+.main_3 {
+
+    background-color: #e5e7eb;
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
 /* footer  */
 .footer {
     background-color: #1f2937;
