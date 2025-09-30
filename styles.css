@@ -32,6 +32,10 @@ ul {
     margin-right: 8px;
 }
 
+li a{
+    text-decoration: none;
+}
+
 button {
     background-color: #3882f6;
     margin: 0;
@@ -55,7 +59,7 @@ body {
 /* header */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
 
@@ -65,6 +69,8 @@ body {
 .main_1 {
     display: flex;
     background-color: #1f2937;
+    justify-content: center;
+    /* max-width: 75%; */
 
 }
 
@@ -122,6 +128,7 @@ body {
 }
 
 /* main 3 body section */
+/* section with the quote */
 
 .main_3 {
 
@@ -130,10 +137,70 @@ body {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-
+    align-items: center;
+    justify-content: center;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    max-width: 800px;
+}
+
+.main_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    border: none;
+    border-radius: 8px;
+    
+    display: flex;
+    background-color: #007bff;
+
+    gap: 8px;
+
+
+    /* color: white; */
+}
+
+.banner_text {
+
+    padding: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+    max-width: fit-content;
+}
+
+.banner_button {
+
+    padding: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner button {
+    color: #E5E7EB;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
 /* footer  */
 .footer {
     background-color: #1f2937;
